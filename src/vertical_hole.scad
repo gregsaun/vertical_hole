@@ -8,9 +8,9 @@
 * License : MIT License
 *
 * Description:
-* When 3D printing vertical holes, the top of the hole is flat and reduce the
-* hole diameter. This library creates a hole with a specific shape on its top
-* in order to avoid a diameter reduction.
+* When 3D printing vertical holes with FDM printer, the top of the hole is flat
+* and reduce the hole diameter. This library creates a hole with a specific
+* shape on top to avoid this diameter compression.
 * Please visit https://github.com/gregsaun/vertical_hole/ for more information.
 * This library as been inspired by the x-axis-end of the Prusa i3 MK2 printer.
 *
@@ -19,12 +19,18 @@
 *   - Openscad pushfit_rod module from Prusa i3 MK2 :
 *     https://github.com/prusa3d/Original-Prusa-i3/blob/2408cbe5b307ca18e2968de5c82fe0842bb4e2a1/Printed-Parts/scad/x-end.scad
 *   - Josef Průša : www.prusa3d.com
+*   - https://www.3dhubs.com/knowledge-base/how-design-parts-fdm-3d-printing#vertical-axis-holes
 *
 ******************************************************************************/
 
 
-// Create vertical hole with clearance on top
 module vertical_hole (h, r, layer_height, n = 40) {
+    /*
+     * h : hole depth
+     * r : radius
+     * layer_height : layer height used when printing in [mm]
+     * n : number of fragments in 360 degrees 
+     */
     
     clearance_height = layer_height + 0.001;
     //clearance_width = r*2/1.8;
