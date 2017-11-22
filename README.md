@@ -19,9 +19,9 @@ I am currently testing the perfect shape/sizes. I have only tested 0.20mm layer 
 
 ## Sources
 
-- This library as been inspired by the x-axis-end of the Prusa i3 MK2 printer, check [here](https://github.com/prusa3d/Original-Prusa-i3/blob/2408cbe5b307ca18e2968de5c82fe0842bb4e2a1/Printed-Parts/scad/x-end.scad)
+- This library as been inspired by the x-axis-end of the Prusa i3 MK2 printer, [check line 79 here](https://github.com/prusa3d/Original-Prusa-i3/blob/2408cbe5b307ca18e2968de5c82fe0842bb4e2a1/Printed-Parts/scad/x-end.scad)
 
-- Why we have this type of hole in FDM : https://www.3dhubs.com/knowledge-base/how-design-parts-fdm-3d-printing#vertical-axis-holes
+- Why we have this type of hole in FDM, [read this](https://www.3dhubs.com/knowledge-base/how-design-parts-fdm-3d-printing#vertical-axis-holes)
 
 ## License
 
