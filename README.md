@@ -14,5 +14,5 @@ This library as been inspired by the x-axis-end of the Prusa i3 MK2 printer, che
 
 ## License
 
-MIT License
+MIT License\
 https://choosealicense.com/licenses/mit/

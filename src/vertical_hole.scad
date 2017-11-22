@@ -5,7 +5,7 @@
 * Author: Grégoire Saunier
 * Website: www.ekunn.com
 *
-* License : GNU GPL v3
+* License : MIT License
 *
 * Description:
 * When 3D printing vertical holes, the top of the hole is flat and reduce the
