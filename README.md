@@ -11,11 +11,11 @@ With this library, you do not need to clean the hole (drill the hole) after prin
 - Prusa i3 MK2s [Bear upgrade](https://github.com/gregsaun/prusa_i3_bear_upgrade)
 - FormFutura PETG HDGlass Blinded Silver (nozzle 230°C, heated bed 80°C)
 - Prusa Firmware 3.1.0 with Linear Advance activated and manually calibrated
-- Slic3r Prusa Edition 1.37.1
+- Slic3r Prusa Edition 1.37.2
 
 ## Status
 
-I am currently testing the perfect shape/sizes. I have only tested 0.20mm layer height with default slic3r PE settings (2 perimeters, 6 top, 5 bottom).
+I am currently testing the perfect shape/sizes. I have only tested 0.20mm layer height with default slic3r PE settings (2 perimeters, 5 tops, 4 bottoms).
 
 ## Sources
 
